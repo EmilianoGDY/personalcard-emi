@@ -54,11 +54,15 @@ body{
     display: grid;
     place-items: center;
     justify-content: space-around;
+    background-image: url(img/fondoposta.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(2px);
 }
 
 .textocuerpo{
     color: black;
-    font-family: 'Aboreto', cursive;
+    font-family: 'Playfair Display', serif;
     font-size: 20px;
 }
 
@@ -90,5 +94,5 @@ a{
 }
 
 h2{
-    font-family: 'Aboreto', cursive;
+    font-family: 'Playfair Display', serif;
 }
